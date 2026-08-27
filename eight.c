@@ -8,7 +8,7 @@ char firstCapitalLetter(char str[], int index) {
     if(str[index] == '\0') {
         return '\0';
     }
-    if(str[index] > 'A' && str[index] < 'Z') {
+    if(str[index] >= 'A' && str[index] <= 'Z') {
         return str[index];
     }
     return firstCapitalLetter(str, index + 1);

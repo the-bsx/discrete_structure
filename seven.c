@@ -1,4 +1,4 @@
-// 7. To find the number of vowels in the given string.
+// 7. To find the number of vowels in the given string using recursion.
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
