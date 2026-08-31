@@ -1,3 +1,5 @@
+// 20. Write a program to perform binary tree traversals.
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -27,6 +29,7 @@ struct Node* insertNode(struct Node* root, int value) {
     return root;
 }
 
+// inOrder
 void inOrder(struct Node* root) {
     if(root == NULL) return;
     inOrder(root->left);

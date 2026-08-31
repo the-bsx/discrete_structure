@@ -21,5 +21,4 @@ any given positive number.
  Product
 19. Write a program to stimulate the following logic gates
 a) AND b) OR c) XOR
-
 20. Write a program to perform binary tree traversals.

@@ -18,6 +18,7 @@ int main() {
     
     if(b == 0) {
         printf("Error: division by zero not allowed!\n");
+        return 1;
     }
     printf("%d MOD %d = %d\n", a, b, mod(a, b));
     printf("Built in %% result: %d", a % b);

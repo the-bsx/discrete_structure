@@ -2,7 +2,8 @@
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
-int countVowels(char str[], int index) {
+
+int countVowels(char *str, int index) {
     if(str[index] == '\0') {
         return 0;
     }
